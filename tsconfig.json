@@ -1,10 +1,13 @@
-// jsconfig.json
 {
   "compilerOptions": {
     "jsx": "react-jsx",
-    "resolveJsonModule": true,
-    "esModuleInterop": true,
-    "baseUrl": ".",
+    "module": "NodeNext", // Ensures compatibility with Node.js ESM
+    "moduleResolution": "NodeNext", // Resolves modules in Node.js style
+    "allowImportingTsExtensions": true, // Allows importing `.ts`/`.tsx` files explicitly
+    "noEmit": true, // Prevents emitting JS files
+    "resolveJsonModule": true, // Allows importing JSON files
+    "esModuleInterop": true, // Enables compatibility with CommonJS modules
+    "baseUrl": ".", // Resolves relative paths from the root
     "paths": {
       "@/*": [
         "src/*"
@@ -13,5 +16,11 @@
         "src/components/*"
       ]
     }
-  }
+  },
+  "include": [
+    "src"
+  ], // Includes the source directory
+  "exclude": [
+    "node_modules"
+  ] // Excludes the node_modules folder
 }
