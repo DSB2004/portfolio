@@ -1,0 +1,95 @@
+[
+    {
+        "name": "Meet Up",
+        "about": "MeetUp is an intuitive online meeting application designed for seamless virtual communication. Whether it's for team collaborations, webinars, or personal catch-ups, MeetUp provides a reliable platform with high-quality video and audio features. With easy scheduling, screen sharing, and real-time messaging, MeetUp ensures that you can connect and communicate effortlessly from anywhere in the world.",
+        "github": "https://github.com/DSB2004/meet_up",
+        "live_link": "https://meet-up-delta.vercel.app/",
+        "start_timeline": "Sep 2024",
+        "end_timeline": "Oct 2024",
+        "tech": [
+            "typescript",
+            "next",
+            "node",
+            "tailwind"
+        ],
+        "new": false
+    },
+    {
+        "name": "Trade Wizard",
+        "about": "Trade Wizard provides an intuitive platform with real-time stock data, daily market updates, and comprehensive historical information for each stock. Using powerful APIs for seamless data integration, this app is designed for both investors and enthusiasts, offering an easy-to-use interface to explore, track, and analyze stocks with ease.",
+        "github": "https://github.com/DSB2004/trade_wizard",
+        "live_link": "https://65b9142d5cf9e00094255a6d--hilarious-sherbet-02fdd8.netlify.app/",
+        "start_timeline": "Dec 2023",
+        "end_timeline": "Feb 2024",
+        "tech": [
+            "javascript",
+            "react",
+            "node",
+            "firebase",
+            "redux"
+        ],
+        "new": false
+    },
+    {
+        "name": "Fitness Freak",
+        "about": "Welcome to Fitness Freak. Dive into a sleek interface designed for seamless navigation and user-friendly experience. Explore a variety of activities including yoga, gym workouts, and more. Engage with fellow fitness enthusiasts in our global chat feature, fostering connections and motivation.",
+        "github": "https://github.com/DSB2004/fitness_freak",
+        "live_link": "https://elegant-lokum-065a2b.netlify.app/",
+        "start_timeline": "August 2023",
+        "end_timeline": "Sep 2023",
+        "tech": [
+            "javascript",
+            "react",
+            "node",
+            "firebase",
+            "redux"
+        ],
+        "new": false
+    },
+    {
+        "name": "Make A Mine",
+        "about": "Make A Mine is a dynamic digital marketing startup that specializes in providing high-quality services such as SEO, deployment, and more. With a proven track record of success, they hired me to build their portfolio website, creating a sleek and user-friendly platform that highlights their expertise and showcases their impactful work in the digital marketing space.",
+        "github": "https://github.com/DSB2004/make_a_mine",
+        "live_link": "https://661791381d468752fd77cdb4--iridescent-malabi-d0479f.netlify.app/",
+        "start_timeline": "Sep 2023",
+        "end_timeline": "Oct 2023",
+        "tech": [
+            "typescript",
+            "next",
+            "node",
+            "redux"
+        ],
+        "new": false
+    },
+    {
+        "name": "Spike",
+        "about": "Spike is an online platform for classic games, offering a nostalgic experience for players. I contributed by optimizing gameplay performance, enhancing multiplayer features, and improving the user interface. My work also involved strengthening the backend for a smoother, more reliable gaming experience.",
+        "github": "https://github.com/DSB2004/spike",
+        "live_link": "#",
+        "start_timeline": "Sep 2024",
+        "end_timeline": "Present",
+        "tech": [
+            "typescript",
+            "next",
+            "node",
+            "tailwind",
+            "express"
+        ],
+        "new": false
+    },
+    {
+        "name": "System Library",
+        "about": "System Library is a project I developed as a JavaScript-based clone of Windows Explorer using Electron. I focused on recreating the classic interface, ensuring smooth file navigation, and optimizing performance for a seamless desktop experience.",
+        "github": "https://github.com/DSB2004/system_library",
+        "live_link": "#",
+        "start_timeline": "May 2024",
+        "end_timeline": "June 2024",
+        "tech": [
+            "javascript",
+            "react",
+            "node",
+            "electron"
+        ],
+        "new": false
+    }
+]

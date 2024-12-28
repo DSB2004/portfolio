@@ -1,0 +1,26 @@
+[
+    {
+        "company_name": "Phurti",
+        "position": "SDE Intern",
+        "position_type": "Internship",
+        "start_time": "October 2024",
+        "end_time": "Present",
+        "description": [
+            "Currently contributing as a software developer in a fast-paced startup, focused on delivering real-world solutions through innovative software projects.",
+            "Enhanced the template builder by adding new features, which improved customization options and boosted user experience by 20%.",
+            "Collaborated with cross-functional teams to streamline deployment workflows, leading to a 10% reduction in downtime and ensuring faster releases."
+        ]
+    },
+    {
+        "company_name": "Techaffy",
+        "position": "React Intern",
+        "position_type": "Internship",
+        "start_time": "May 2024",
+        "end_time": "August 2024",
+        "description": [
+            "Developed a fully-functional admin panel from scratch, implementing RESTful API integrations to improve data management and enhance user control.",
+            "Optimized front-end React components, reducing page load times by 25% and significantly improving application responsiveness across devices.",
+            "Worked closely with the backend team to integrate RESTful APIs, ensuring seamless and efficient data flow between the frontend and server."
+        ]
+    }
+]
