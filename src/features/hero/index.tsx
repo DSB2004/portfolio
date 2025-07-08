@@ -1,22 +1,43 @@
-import React from 'react'
-import Button from '@/ui/button'
-import UserData from '@/assets/dev.json'
-import OneWayTypewriter from '@/ui/one-way-typewriter'
+import { ScrollTo } from "@/utils/handleScroll";
+import Button from "@/ui/button";
+
+import { ArrowRight } from "lucide-react";
 export default function Hero() {
-    return (
-        <article id="hero" className='my-28 flex items-center'>
-            <div>
-                <h3 className='dark:text-dark-primary text-light-primary font-bold capitalize  text-lg md:text-xl mb-4'>Hi my name is</h3>
-                <h3 className='dark:text-white text-black text-5xl sm:text-6xl lg:text-7xl mb-4'>Damanjeet Singh</h3>
-                <OneWayTypewriter text='I build things for the web' className='w-fit dark:text-dark-primary text-light-primary uppercase text-lg md:text-xl mb-14'></OneWayTypewriter>
+  return (
+    <article
+      id="hero"
+      className="my-16 flex items-center flex-col gap-10 text-white"
+    >
+      <div className="flex flex-col items-center gap-5 ">
+        <h3 className="text-base sm:text-lg lg:text-xl font-montserrat">
+          Hi my name is Damanjeet Singh
+        </h3>
+        <img src="/horizontal-line.png" alt="" />
+      </div>
 
-                <p className='dark:text-white w-full md:w-3/4 min-w-80 mb-6 text-sm md:text-base'>I'm a full stack developer from Delhi with expertise in creating dynamic and seamless web applications. I’m passionate about building visually appealing and functional solutions that solve real-world problems.</p>
-                <Button onClick={() => window.open(UserData.resume, "_blank")} className='!p-1.5 !py-2 !text-xs  md:!p-2 md:!py-3 md:!text-sm  '>
-                    Check out my resume!
-                </Button>
+      <h3 className="text-3xl md:text-5xl !leading-tight font-bold sm:text-6xl lg:text-7xl text-center">
+        I build full-stack solutions for the{" "}
+        <span className="text-[#507295]">{"{modern web}"}</span>.
+      </h3>
 
-            </div>
-        </article>
-    )
+      <p className="text-sm sm:text-base lg:text-xl text-center  text-[#b0b0b0] font-montserrat">
+        I'm a full stack developer from Delhi with expertise in creating dynamic
+        and seamless web applications. I’m passionate about building visually
+        appealing and functional solutions that solve real-world problems.
+      </p>
+
+      <div className="flex gap-4 items-center ">
+        <Button className="" onClick={() => ScrollTo("about")}>
+          About Me
+        </Button>
+        <Button
+          onClick={() => ScrollTo("contact")}
+          className="!bg-transparent border-white border-2 gap-2 rounded-full "
+        >
+          Let's Talk
+          <ArrowRight className="w-4 h-4"></ArrowRight>
+        </Button>
+      </div>
+    </article>
+  );
 }
-

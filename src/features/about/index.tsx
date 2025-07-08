@@ -1,30 +1,28 @@
-import React from 'react'
-// import Typewriter from '../../ui/typewriter'
-import Typewriter from '@/ui/typewriter'
-import User from "@/assets/dev.json"
+import Button from "@/ui/button";
+import Typewriter from "@/ui/typewriter";
+import DevInfo from "../../assets/dev.json";
+import { useNavigate } from "react-router-dom";
 export default function About() {
-    return (
-        <article id="about" className='flex flex-col my-10'>
-            <h2 className='dark:text-white w-48 text-black font-semibold uppercase text-lg md:text-2xl mb-4 flex flex-col'>
-                <span>
-                    <span className='text-3xl md:text-5xl'>
-                        A
-                    </span>
-                    bout
-                </span>
+  const navigate = useNavigate();
+  return (
+    <article id="about" className="flex flex-col mt-32 font-montserrat gap-6">
+      <h2 className="text-white font-semibold font-spacemono text-2xl xl:text-5xl  flex flex-col">
+        About Me
+      </h2>
+      <p className="text-sm sm:text-lg lg:text-xl">
+        I'm Damanjeet Singh, a software developer
+      </p>
+      <p className="text-justify  text-sm sm:text-base lg:text-lg text-[#b0b0b0]">
+        {DevInfo.about}
+      </p>
 
-                <div className='w-full h-1 dark:bg-dark-primary bg-light-primary'></div>
+      <div className="flex justify-between ">
+        <Typewriter list={DevInfo.skills} speed={50} delay={500}></Typewriter>
 
-            </h2>
-
-            <p className='dark:text-dark-primary text-justify text-light-primary  text-sm sm:text-base lg:text-lg '>I'm a passionate full stack developer from Delhi, currently pursuing a B.Tech in Computer Science and Engineering. With a solid foundation in front-end and back-end technologies, I enjoy creating web applications that are both visually appealing and functional. I thrive on solving complex problems and continuously learning new skills to stay ahead in the evolving tech world. Whether it's building dynamic interfaces or designing robust server-side solutions, I aim to deliver seamless digital experiences.</p>
-
-            <div className='flex items-center justify-center h-10 '>
-                <Typewriter list={User.skills} delay={500} speed={50} className='text-sm md:text-base lg:text-lg'></Typewriter>
-            </div>
-
-
-            <div className='w-80 h-1 my-4 mx-auto dark:bg-dark-primary bg-light-primary'></div>
-        </article>
-    )
+        <Button onClick={() => window.open(DevInfo.resume, "_blank")}>
+          View Resume
+        </Button>
+      </div>
+    </article>
+  );
 }

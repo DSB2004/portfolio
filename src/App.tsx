@@ -12,7 +12,6 @@ function App() {
           <Route path="/" element={<Home />}></Route>
         </Routes>
       </BrowserRouter>
-      {/* <main className="min-h-screen bg-violet-950"></main> */}
     </>
   )
 }
