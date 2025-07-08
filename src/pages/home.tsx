@@ -10,6 +10,7 @@ import MoveToUp from "@/features/moveToUp";
 export default function Home() {
   return (
     <>
+      <div className="bg-[#191A31] fixed inset-0 -z-20 w-full h-full"></div>
       <div className="fixed inset-0 -z-10">
         <img
           src="/portfolio-bg.png"
@@ -24,9 +25,9 @@ export default function Home() {
         <Hero></Hero>
         <About></About>
         <Projects></Projects>
-        <Experience></Experience> 
+        <Experience></Experience>
         {/*
-        */}
+         */}
       </section>
       <Contact></Contact>
     </>
