@@ -7,7 +7,7 @@ import TechIcon from "@/ui/icon";
 export default function ProjectCard({ project }: { project: Project }) {
   const { name, about, github, live_link, tech } = project;
   return (
-    <div className=" flex flex-col relative font-montserrat p-4 min-h-80 w-full shadow-lg border-2 border-[#ffffff16] rounded-md bg-[#ffffff12]">
+    <div className=" flex flex-col relative font-montserrat p-4 min-h-80 w-full shadow-xl border-2 border-[#ffffff16] rounded-lg bg-[#ffffff12]">
       <div className=" flex items-center justify-between">
         <h2 className="text-xl font-bold">{name}</h2>
         <div className="flex justify-end items-center gap-2">
