@@ -12,7 +12,7 @@ export default function About() {
       <p className="text-sm sm:text-lg lg:text-xl">
         I'm Damanjeet Singh, a software developer
       </p>
-      <p className="text-justify  text-sm sm:text-base lg:text-lg text-[#b0b0b0]">
+      <p className="  text-sm sm:text-base lg:text-lg text-[#b0b0b0]">
         {DevInfo.about}
       </p>
 

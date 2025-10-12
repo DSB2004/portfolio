@@ -5,12 +5,24 @@ import { CiGlobe } from "react-icons/ci";
 import { Link } from "react-router-dom";
 import TechIcon from "@/ui/icon";
 export default function ProjectCard({ project }: { project: Project }) {
-  const { name, about, github, live_link, tech } = project;
+  const { name, about, github, live_link, tech, thumbnail } = project;
   return (
-    <div className=" flex flex-col relative font-montserrat p-4 min-h-80 w-full shadow-xl border-2 border-[#ffffff16] rounded-lg bg-[#ffffff12]">
-      <div className=" flex items-center justify-between">
-        <h2 className="text-xl font-bold">{name}</h2>
-        <div className="flex justify-end items-center gap-2">
+    <div className=" flex flex-col relative font-montserrat p-4 min-h-80 w-full  gap-4 rounded-lg ">
+      {thumbnail ? (
+        <div className="w-full h-48 sm:h-56">
+          <img src={thumbnail} className="object-fill h-full w-full" />
+        </div>
+      ) : (
+        <>
+          <div className="w-full  h-48 sm:h-56 bg-[#4e4e4e33] blur-[3px]"></div>
+        </>
+      )}
+
+      <div className=" flex  flex-col gap-2 opacity-80">
+        <h2 className="text-xl font-bold ">{name}</h2>
+
+        <p className="text-sm  text-white ">{about}</p>
+        <div className="flex justify-end items-center gap-2 ">
           <Link to={github} target="_blank">
             <ImGithub className="w-6 h-6 text-white " />
           </Link>
@@ -18,14 +30,6 @@ export default function ProjectCard({ project }: { project: Project }) {
             <CiGlobe className="w-6 h-6  text-white" />
           </Link>
         </div>
-      </div>
-
-      <p className="text-sm text-justify mt-5 text-white">{about}</p>
-
-      <div className="flex my-2 justify-end mt-auto gap-2 w-full ">
-        {tech.map((ele) => (
-          <TechIcon techName={ele} />
-        ))}
       </div>
     </div>
   );

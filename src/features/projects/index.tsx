@@ -11,7 +11,7 @@ export default function Projects() {
         Projects
       </h2>
 
-      <p className="text-justify  text-sm sm:text-base lg:text-lg text-[#b0b0b0]">
+      <p className=" text-sm sm:text-base lg:text-lg text-[#b0b0b0]">
         Before showcasing my projects, I'd like to highlight the skills and
         technologies I've applied in creating impactful solutions. Each project
         represents a unique challenge and opportunity to grow. Below, you’ll
@@ -20,6 +20,7 @@ export default function Projects() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-4 my-6">
         {ProjectJson.map((project) => (
+          // @ts-ignore
           <ProjectCard project={project} />
         ))}
       </div>

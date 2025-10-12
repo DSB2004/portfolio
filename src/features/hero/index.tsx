@@ -17,7 +17,7 @@ export default function Hero() {
 
       <h3 className="text-3xl md:text-5xl !leading-tight font-bold sm:text-6xl lg:text-7xl text-center">
         I build full-stack solutions for the{" "}
-        <span className="text-[#507295]">{"{modern web}"}</span>.
+        <span className="text-[#ac3f4e] ">{"{modern web}"}</span>.
       </h3>
 
       <p className="text-sm sm:text-base lg:text-xl text-center  text-[#b0b0b0] font-montserrat">

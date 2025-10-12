@@ -1,79 +1,43 @@
 [
   {
-    "name": "Meet Up",
-    "about": "Built an online meeting app in React.js & Next.js with streaming SDK integration, supporting video/audio calls, screen sharing, and real-time chat for seamless virtual collaboration.",
-    "github": "https://github.com/DSB2004/meet_up",
-    "live_link": "https://meet-up-delta.vercel.app/",
-    "start_timeline": "Sep 2024",
-    "end_timeline": "Oct 2024",
-    "tech": ["typescript", "next", "node", "tailwind"],
-    "new": false
-  },
-  {
-    "name": "Trade Wizard",
-    "about": "Developed a React.js stock analysis platform with APIs for market news, daily insights, and historical trends, adding graphical visualizations for better decision-making.",
-    "github": "https://github.com/DSB2004/trade_wizard",
-    "live_link": "https://65b9142d5cf9e00094255a6d--hilarious-sherbet-02fdd8.netlify.app/",
-    "start_timeline": "Dec 2023",
-    "end_timeline": "Feb 2024",
-    "tech": ["javascript", "react", "node", "firebase", "redux"],
-    "new": false
-  },
-  {
-    "name": "Fitness Freak",
-    "about": "Built a fitness platform with React.js offering activity exploration (yoga, workouts, etc.), fitness blogs, and a global chat system for community engagement, delivering a smooth and user-friendly experience.",
-    "github": "https://github.com/DSB2004/fitness_freak",
-    "live_link": "https://elegant-lokum-065a2b.netlify.app/",
-    "start_timeline": "August 2023",
-    "end_timeline": "Sep 2023",
-    "tech": ["javascript", "react", "node", "firebase", "redux"],
-    "new": false
+    "name": "Foodie Go",
+    "thumbnail": "/projects/foodiego.png",
+    "about": "Built a food delivery system with order creation, tracking, partner assignment, and smart recommendations. Implemented Kafka-based async communication, gRPC/REST APIs, FCM updates, and integrated Razorpay SDK with mobile apps for users and delivery partners.",
+    "github": "https://github.com/foodie-go",
+    "live_link": "https://github.com/foodie-go"
   },
   {
     "name": "WebChat",
     "about": "Created a real-time chat app with microservice architecture, Kafka, Socket.IO, and FCM, enabling instant messaging, group chats, and notifications across devices.",
     "github": "https://github.com/DSB2004/webchat",
-    "live_link": "https://github.com/DSB2004/webchat",
-    "start_timeline": "July 2025",
-    "end_timeline": "Present",
-    "tech": [
-      "typescript",
-      "node",
-      "postgres",
-      "redis",
-      "express",
-      "kafka",
-      "native"
-    ],
-    "new": false
+    "live_link": "https://github.com/DSB2004/webchat"
   },
   {
-    "name": "Foodie Go",
-    "about": "Built a food delivery system with order creation, tracking, partner assignment, and smart recommendations. Implemented Kafka-based async communication, gRPC/REST APIs, FCM updates, and integrated Razorpay SDK with mobile apps for users and delivery partners.",
-    "github": "https://github.com/foodie-go",
-    "live_link": "https://github.com/foodie-go",
-    "start_timeline": "August 2025",
-    "end_timeline": "Present",
-    "tech": [
-      "typescript",
-      "python",
-      "fast",
-      "kafka",
-      "mqtt",
-      "nest",
-      "native",
-      "elastic"
-    ],
-    "new": true
+    "name": "Meet Up",
+    "thumbnail": "/projects/meetup.png",
+    "about": "Built an online meeting app in React.js & Next.js with streaming SDK integration, supporting video/audio calls, screen sharing, and real-time chat for seamless virtual collaboration.",
+    "github": "https://github.com/DSB2004/meet_up",
+    "live_link": "https://meet-up-delta.vercel.app/"
+  },
+  {
+    "name": "Trade Wizard",
+    "thumbnail": "/projects/tradewizard.png",
+    "about": "Developed a React.js stock analysis platform with APIs for market news, daily insights, and historical trends, adding graphical visualizations for better decision-making.",
+    "github": "https://github.com/DSB2004/trade_wizard",
+    "live_link": "https://65b9142d5cf9e00094255a6d--hilarious-sherbet-02fdd8.netlify.app/"
+  },
+  {
+    "name": "Fitness Freak",
+    "thumbnail": "/projects/fitnessfreak.png",
+    "about": "Built a fitness platform with React.js offering activity exploration (yoga, workouts, etc.), fitness blogs, and a global chat system for community engagement, delivering a smooth and user-friendly experience.",
+    "github": "https://github.com/DSB2004/fitness_freak",
+    "live_link": "https://elegant-lokum-065a2b.netlify.app/"
   },
   {
     "name": "System Library",
+    "thumbnail": "/projects/systemlib.png",
     "about": "Developed a Windows Explorer–like desktop application using Electron and JavaScript, featuring smooth file navigation, classic interface design, and optimized for a seamless user experience.",
     "github": "https://github.com/DSB2004/system_library",
-    "live_link": "https://github.com/DSB2004/system_library",
-    "start_timeline": "May 2024",
-    "end_timeline": "June 2024",
-    "tech": ["javascript", "react", "node", "electron"],
-    "new": false
+    "live_link": "https://github.com/DSB2004/system_library"
   }
 ]

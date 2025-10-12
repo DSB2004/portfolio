@@ -32,7 +32,7 @@ export default function MoveToUp() {
             className={`relative rounded-full bg-light dark:bg-dark p-3 overflow-hidden `}
           >
             <div
-              className={`h-full w-full absolute top-0 left-0 z-0 transition-all duration-300 bg-[#6795C3]`}
+              className={`h-full w-full absolute top-0 left-0 z-0 transition-all duration-300 bg-[#ac3f4e]`}
             ></div>
             <ChevronUp className="w-6 h-6 text-white relative z-10" />
           </div>

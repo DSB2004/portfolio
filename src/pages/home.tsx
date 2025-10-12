@@ -18,6 +18,18 @@ export default function Home() {
           className="w-full h-full "
         />
       </div>
+
+      <img
+        src="/pattern.png"
+        alt=""
+        className="fixed -z-5 right-3 sm:right-10 -top-[10%] opacity-75 [mask-image:linear-gradient(to_top,white,transparent)]"
+      />
+      <img
+        src="/pattern.png"
+        alt=""
+        className="fixed -z-5 left-3 sm:left-10 -bottom-[10%] opacity-75 [mask-image:linear-gradient(to_bottom,white,transparent)]"
+      />
+
       <FollowMe></FollowMe>
       <MoveToUp></MoveToUp>
       <section className="  text-white font-spacemono relative w-10/12 min-w-80 max-w-[1400px] m-auto">
